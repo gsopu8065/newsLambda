@@ -1,0 +1,14 @@
+{
+  "name": "newsLambda",
+  "version": "0.1.0",
+  "private": false,
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "zip": "zip -r ../index.zip *"
+  },
+  "dependencies": {
+    "async-redis": "^1.1.4",
+    "redis": "^2.8.0"
+  }
+}
